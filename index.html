@@ -97,21 +97,7 @@
                         </p>
                         <div class="button wow fadeInUp" data-wow-delay=".8s">
                             <a href="about-us.html" class="btn ">Sign up to get started</a>
-                            <div id="dj-count-container">Loading...</div>
-
-    <script>
-        // Fetch the count from the URL
-        fetch('https://afrobeat-staging.herokuapp.com/api/djs/count')
-            .then(response => response.json())
-            .then(data => {
-                // Insert the count into the HTML
-                document.getElementById('dj-count-container').textContent = data.count;
-            })
-            .catch(error => {
-                console.error('Error fetching DJ count:', error);
-                document.getElementById('dj-count-container').textContent = 'Error fetching count';
-            });
-    </script>
+                            
                         </div>
                     </div>
                 </div>
