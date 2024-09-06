@@ -2,9 +2,8 @@
 
 // Replace with your Contentful Space ID and API Key
 const spaceId = 'fw4nubyqyho0';
-const accessToken = 'bREhGyIrCi1kb5ONdlNbml2BszQFPrRZ84F9WbkRllc';
-const endpoint = "https://cdn.contentful.com/spaces/fw4nubyqyho0/entries?access_token=bREhGyIrCi1kb5ONdlNbml2BszQFPrRZ84F9WbkRllc" // Fetch blog posts
-
+const accessToken = '';
+const endpoint = "";
 // Fetch blog posts from Contentful
 async function fetchBlogPosts() {
     try {
